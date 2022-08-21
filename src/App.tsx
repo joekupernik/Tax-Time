@@ -4,6 +4,8 @@ import Home from "./Home";
 import About from "./About";
 import Contact from "./Contact";
 import Services from "./Services";
+import Footer from "./Footer";
+
 
 
 
@@ -17,6 +19,7 @@ function App() {
           <Route path="/services" element={<Services />}></Route>
           <Route path="/contact" element={<Contact />}></Route>
         </Routes>
+        <Footer/>
     </div>
   );
 }
