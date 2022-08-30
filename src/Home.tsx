@@ -1,23 +1,26 @@
 
-import Grid from '@mui/material/Grid';
+//import Grid from '@mui/material/Grid';
+import background from './background.jpg';
 
 
 
 export default function Home () {
     return(
-        <Grid container>
-  <Grid item xs={12}>
-    <div>first</div>
-  </Grid>
-  <Grid item xs={4}>
-  <div>first</div>
-  </Grid>
-  <Grid item xs={4}>
-  <div>first</div>
-  </Grid>
-  <Grid item xs={8}>
-  <div>first</div>
-  </Grid>
-</Grid>
+      <>
+          <div
+        style={{
+          backgroundImage: `url(${background})`,
+          backgroundSize:'cover',
+          height: '15rem'
+        }}>
+          <h1>Tax time</h1>
+          </div>
+          <hr
+            style={{
+              color: "black",
+              height: 3
+            }}
+          />
+        </>
     );
 }
