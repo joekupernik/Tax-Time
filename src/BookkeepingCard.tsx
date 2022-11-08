@@ -4,6 +4,7 @@ import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
 import Typography from '@mui/material/Typography';
 import { CardActionArea } from '@mui/material';
+import { url } from 'inspector';
 
 
 export default function BookkeppingCard() {
@@ -13,7 +14,7 @@ export default function BookkeppingCard() {
         <CardMedia
           component="img"
           height="140"
-          image="BookKeepingImg"
+          image="/Static/bookkeeping.jpg"
           alt="bookeeping"
         />
         <CardContent>
