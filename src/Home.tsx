@@ -5,6 +5,7 @@ import TaxCard from './TaxCard';
 import BookkeepingCard from './BookkeepingCard';
 import ConsultingCard from './ConsultingCard';
 import Jumbotron from './Jumbotron';
+import ReviewCard from './ReviewCard';
 
 
 
@@ -26,6 +27,9 @@ export default function Home () {
         <Grid item xs={12} sm={6} md={4}>
           <BookkeepingCard/>
         </Grid>
+      </Grid>
+      <Grid item xs={12} sm={6} md={4}>
+        <ReviewCard/>
       </Grid>
             
             

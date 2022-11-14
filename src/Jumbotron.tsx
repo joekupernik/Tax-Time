@@ -6,7 +6,7 @@ export default function Jumbotron() {
   return (
     <Box
     sx={{
-      bgcolor: 'background.paper',
+      bgcolor: 'secondary',
       pt: 8,
       pb: 6,
     }}
@@ -19,12 +19,12 @@ export default function Jumbotron() {
         color="text.primary"
         gutterBottom
       >
-        Album layout
+        Elevated Finnancals
       </Typography>
       <Typography variant="h5" align="center" color="text.secondary" paragraph>
-        Something short and leading about the collection below—its contents,
-        the creator, etc. Make it short and sweet, but not too short so folks
-        don&apos;t simply skip over it entirely.
+        I started this company to help people achive their dreams. I offer several services
+        each one as nessesary as the last. Contact me with your problems and I will help you find
+         Solutions.
       </Typography>
       </Container>
       </Box>
