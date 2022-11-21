@@ -31,8 +31,6 @@ export default function Home () {
       <Grid item xs={12} sm={6} md={4}>
         <ReviewCard/>
       </Grid>
-            
-            
         </Box>
         </>
     );
