@@ -9,7 +9,8 @@ import Container from '@mui/material/Container';
 import Card from '@mui/material/Card';
 import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
-import ReviewCard from './ReviewCard';
+//import ReviewCard from './ReviewCard';
+import ReviewCarousel from './ReviewCarousel';
 
 
 
@@ -50,7 +51,7 @@ export default function Services () {
       </Typography>
      </CardContent>
      <CardContent>
-        <ReviewCard/>
+        <ReviewCarousel/>
      </CardContent>
     </Card>
         </Grid>
