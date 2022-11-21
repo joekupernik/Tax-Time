@@ -5,6 +5,7 @@ import Typography from "@mui/material/Typography";
 import Card from "@mui/material/Card";
 import CardContent from '@mui/material/CardContent';
 //import Icon from '@mui/material/Icon';
+import CardMedia from '@mui/material/CardMedia';
 
 
 export default function ContactForm() {
@@ -16,6 +17,14 @@ export default function ContactForm() {
     }}
   >
     <Card>
+     <CardMedia
+     component="img"
+     height="300"
+     image="\Static\background.jpg"
+     alt="green iguana"
+     >
+    
+     </CardMedia>
      <CardContent>
       <Typography>
         Phone Number: (303)-987-9878
