@@ -31,23 +31,26 @@ export default function Services () {
       </Typography>
       </Container>
       </Grid>
-      <Grid container>
+      <Grid container sx={{ p: 2}}>
         <Grid item xs={12} sm={6}>
-        <Card>
+        <Card sx={{ p: 2}}>
      <CardMedia
      component="img"
-     height="300"
+     height="500"
      image="\Static\background.jpg"
      alt="green iguana"
      >
     
      </CardMedia>
      <CardContent>
-      <Typography>
+      <Typography sx={{ p: 2, align: 'center'}}>
         Why Choose Us?
       </Typography>
-      <Typography>
-        We do the best job in the world. becccccccccccccccccccccccccccccbjdashduihsdhasdhhaudhausdjashduiasgduhasuidauisdui
+      <Typography sx={{ p: 2}}>
+        We do the best job in the world. 
+        With over 4 years of experiance we have
+        the best most profesional people in the world.
+        But don't take our word for it.  
       </Typography>
      </CardContent>
      <CardContent>
@@ -56,7 +59,7 @@ export default function Services () {
     </Card>
         </Grid>
         <Grid item xs={12} sm={6}>
-        <Box>
+        <Box sx={{ p: 2}}>
         <Grid container rowSpacing={{ xs: 1, sm: 2, md: 3 }} columnSpacing={{ xs: 1, sm: 2, md: 3 }} padding={{ xs: 1, sm: 2, md: 3 }}>
         <Grid item xs={12} sm={6} md={4}>
           <TaxCard/>
