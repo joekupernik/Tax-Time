@@ -55,7 +55,7 @@ export default function Services () {
      </CardContent>
     </Card>
         </Grid>
-        <Grid item xs={12} sm={6}>
+        <Grid item xs={12} sm={6} sx={{ p: 2}}>
         <ServiceCards/>
         </Grid>
       </Grid>
