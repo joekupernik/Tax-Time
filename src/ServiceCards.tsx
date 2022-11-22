@@ -17,13 +17,13 @@ export default function ServiceCards() {
       <CardActionArea>
         <CardMedia
           component="img"
-          height="140"
+          height="150"
           image="\Static\taxes.jpg"
           alt="green iguana"
         />
         <CardContent>
           <Typography gutterBottom variant="h5" component="div">
-            Stop stressing about your taxes
+            Taxes
           </Typography>
           <Typography variant="body2" color="text.secondary">
             Worried about your taxes?  Looking for a tax prepairer you can trust?  Well look no further Carly has the experiance and knowledge plus the follow through to make your tax season a breeze.

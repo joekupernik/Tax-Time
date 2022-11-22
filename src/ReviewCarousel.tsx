@@ -40,7 +40,7 @@ export default function ReviewCarousel() {
   };
 
   return (
-    <Box sx={{ maxWidth: 400, flexGrow: 1, pl: 10}}>
+    <Paper elevation={5} sx={{ maxWidth: '100%', flexGrow: 1}}>
       <Paper
         square
         elevation={0}
@@ -50,11 +50,12 @@ export default function ReviewCarousel() {
           height: 50,
           pl: 2,
           bgcolor: 'background.default',
+          justifyContent: 'center',
         }}
       >
         <Typography>{steps[activeStep].label}</Typography>
       </Paper>
-      <Box sx={{ height: 100, maxWidth: 400, width: '100%', p: 2 }}>
+      <Box sx={{ height: 100, maxWidth: 400, width: '100%', p: 2}}>
         {steps[activeStep].description}
       </Box>
       <MobileStepper
@@ -87,6 +88,6 @@ export default function ReviewCarousel() {
           </Button>
         }
       />
-    </Box>
+    </Paper>
   );
 }
