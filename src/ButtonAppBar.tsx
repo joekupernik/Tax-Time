@@ -8,10 +8,11 @@ import Button from '@mui/material/Button';
 import {Link} from "react-router-dom";
 
 
+
 export default function ButtonAppBar() {
   return (
     <Box sx={{ flexGrow: 1 }}>
-      <AppBar position="static">
+      <AppBar position="static" sx={{pl: 2}}>
         <Toolbar>       
           <Button color="inherit"><Link to="/">Home</Link></Button>
           <Button color="inherit"><Link to="/about">About</Link></Button>

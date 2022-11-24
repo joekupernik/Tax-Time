@@ -13,7 +13,7 @@ import ReviewCard from './ReviewCard';
 export default function Home () {
     return(
       <>
-      <Grid container xs={12}>
+      <Grid container xs={12} sm={12} md={12}>
         <Jumbotron/>
       </Grid>
       <Box>
