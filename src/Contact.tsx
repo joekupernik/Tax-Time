@@ -5,10 +5,9 @@ import ContactCard from "./ContactCard";
 
 export default function Contact() {
     return(
-        <Grid container rowSpacing={{ xs: 1, sm: 2, md: 3 }} columnSpacing={{ xs: 1, sm: 2, md: 3 }} padding={{ xs: 1, sm: 2, md: 3 }}>
-        <Grid item xs={12}>
-           <Jumbotron/>
-        </Grid>
+        <>
+        <Jumbotron/>
+        <Grid container columnSpacing={{ xs: 1, sm: 2, md: 3 }} padding={{ xs: 1, sm: 2, md: 3 }}>
         <Grid item xs={12} sm={6} >
           <ContactForm/>
         </Grid>
@@ -16,5 +15,6 @@ export default function Contact() {
             <ContactCard/>
         </Grid>
         </Grid>
+        </>
     );
 }

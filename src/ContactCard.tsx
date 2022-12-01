@@ -1,42 +1,37 @@
 
-import Box from "@mui/material/Box";
-//import Container from "@mui/system/Container";
 import Typography from "@mui/material/Typography";
 import Card from "@mui/material/Card";
 import CardContent from '@mui/material/CardContent';
-//import Icon from '@mui/material/Icon';
+import EmailIcon from '@mui/icons-material/Email';
 import CardMedia from '@mui/material/CardMedia';
+import PhoneIcon from '@mui/icons-material/Phone';
+import LocationOnIcon from '@mui/icons-material/LocationOn';
 
 
 export default function ContactForm() {
   return (
-    <Box
-    sx={{
-      pt: 8,
-      pb: 6,
-    }}
-  >
+   
     <Card>
      <CardMedia
      component="img"
-     height="300"
+     height="500"
      image="\Static\background.jpg"
      alt="green iguana"
      >
     
      </CardMedia>
-     <CardContent>
+     <CardContent >
       <Typography>
-        "Phone Number Icon": (303)-987-9878
+        <PhoneIcon fontSize="large" /> (303)-987-9878
       </Typography>
       <Typography>
-        "Email icon": do something cool@gmail.com
+        <EmailIcon fontSize="large" /> do something cool@gmail.com
       </Typography>
       <Typography>
-        "icon": Bayfield Colorado
+        <LocationOnIcon fontSize="large"  /> Bayfield Colorado
       </Typography>
      </CardContent>
     </Card>
-      </Box>
+    
   );
 }
