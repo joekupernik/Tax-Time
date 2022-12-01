@@ -7,7 +7,7 @@ import CardActionArea  from '@mui/material/CardActionArea';
 
 export default function TaxCard() {
   return (
-    <Card sx={{ maxWidth: '100%' }}>
+    <Card sx={{ maxWidth: '100%', height: '100%' }}>
       <CardActionArea>
         <CardMedia
           component="img"
@@ -16,10 +16,10 @@ export default function TaxCard() {
           alt="green iguana"
         />
         <CardContent>
-          <Typography gutterBottom variant="h5" component="div">
+          <Typography gutterBottom variant="h2" component="div">
             Stop stressing about your taxes
           </Typography>
-          <Typography variant="body2" color="text.secondary">
+          <Typography variant="h5" color="text.secondary">
             Worried about your taxes?  Looking for a tax prepairer you can trust?  Well look no further Carly has the experiance and knowledge plus the follow through to make your tax season a breeze.
           </Typography>
         </CardContent>

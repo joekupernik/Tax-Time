@@ -16,10 +16,10 @@ export default function ConsultingCard() {
           alt="green iguana"
         />
         <CardContent>
-          <Typography gutterBottom variant="h5" component="div">
+          <Typography gutterBottom variant="h2" component="div">
             Turn your ideas into realities
           </Typography>
-          <Typography variant="body2" color="text.secondary">
+          <Typography variant="h5" color="text.secondary">
             Give your dreams the nutrients they need to blosom. Buisness can take many forms, find out which on best suits your needs.
           </Typography>
         </CardContent>

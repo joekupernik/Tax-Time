@@ -13,9 +13,9 @@ import Paper from '@mui/material/Paper';
 export default function Home () {
     return(
       <>
-      <Grid container xs={12} sm={12} md={12} sx={{justifyContent: 'center'}}>
+      
         <Jumbotron/>
-      </Grid>
+      
       <Paper>
         <Grid container  rowSpacing={{ xs: 1, sm: 2, md: 3 }} columnSpacing={{ xs: 1, sm: 2, md: 3 }} padding={{ xs: 1, sm: 2, md: 3 }}>
         <Grid item xs={12} sm={6} md={4} >

@@ -9,7 +9,7 @@ import { CardActionArea } from '@mui/material';
 
 export default function BookkeppingCard() {
   return (
-    <Card sx={{ maxWidth: '100%'}}>
+    <Card sx={{ maxWidth: '100%', height: '100%'}}>
       <CardActionArea>
         <CardMedia
           component="img"
@@ -18,10 +18,10 @@ export default function BookkeppingCard() {
           alt="bookeeping"
         />
         <CardContent>
-          <Typography gutterBottom variant="h5" component="div">
+          <Typography gutterBottom variant="h2" component="div">
             Focus on your buisness not your bookeeping.
           </Typography>
-          <Typography variant="body2" color="text.secondary">
+          <Typography variant="h5" color="text.secondary">
             Owning a buisness is hard work.  Elevated Finicals makes your life eaiser by streamlining your finiancial recording and allowing you to focus on the most important parts of your buisness.
           </Typography>
         </CardContent>
