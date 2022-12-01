@@ -23,6 +23,7 @@ export default function ContactForm() {
            m: 1
         }}
         fullWidth
+        helperText="First Name"
       />
       <TextField
         required
@@ -32,6 +33,7 @@ export default function ContactForm() {
           m: 1
        }}
        fullWidth
+       helperText="Last Name"
       />
       <TextField
         required
@@ -43,6 +45,7 @@ export default function ContactForm() {
           m: 1
        }}
        fullWidth
+       helperText="Email"
       />
       <TextField
         required
@@ -53,6 +56,7 @@ export default function ContactForm() {
           m: 1
        }}
        fullWidth
+       helperText="Phone Number"
       />
       <TextField
         required
@@ -65,6 +69,7 @@ export default function ContactForm() {
         sx={{
           m: 1  
        }}
+       helperText="Tell us what you need!"
       />
       <Button variant="outlined"  type="submit">Submit</Button>
       </Box>

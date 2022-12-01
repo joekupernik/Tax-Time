@@ -27,13 +27,13 @@ export default function ContactForm() {
      </CardMedia>
      <CardContent>
       <Typography>
-        Phone Number: (303)-987-9878
+        "Phone Number Icon": (303)-987-9878
       </Typography>
       <Typography>
-        Email: do something cool@gmail.com
+        "Email icon": do something cool@gmail.com
       </Typography>
       <Typography>
-        Location: Bayfield Colorado
+        "icon": Bayfield Colorado
       </Typography>
      </CardContent>
     </Card>

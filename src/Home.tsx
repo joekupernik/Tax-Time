@@ -1,24 +1,24 @@
 
 import Grid from '@mui/material/Grid';
-import Box from '@mui/material/Box';
+//import Box from '@mui/material/Box';
 import TaxCard from './TaxCard';
 import BookkeepingCard from './BookkeepingCard';
 import ConsultingCard from './ConsultingCard';
 import Jumbotron from './Jumbotron';
 import ReviewCard from './ReviewCard';
-
+import Paper from '@mui/material/Paper';
 
 
 
 export default function Home () {
     return(
       <>
-      <Grid container xs={12} sm={12} md={12}>
+      <Grid container xs={12} sm={12} md={12} sx={{justifyContent: 'center'}}>
         <Jumbotron/>
       </Grid>
-      <Box>
+      <Paper>
         <Grid container rowSpacing={{ xs: 1, sm: 2, md: 3 }} columnSpacing={{ xs: 1, sm: 2, md: 3 }} padding={{ xs: 1, sm: 2, md: 3 }}>
-        <Grid item xs={12} sm={6} md={4}>
+        <Grid item xs={12} sm={6} md={4} >
           <TaxCard/>
         </Grid>
         <Grid item xs={12} sm={6} md={4}>
@@ -31,7 +31,7 @@ export default function Home () {
       <Grid item xs={12} sm={6} md={4}>
         <ReviewCard/>
       </Grid>
-        </Box>
+        </Paper>
         </>
     );
 }
