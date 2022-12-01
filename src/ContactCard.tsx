@@ -24,7 +24,7 @@ export default function ContactForm() {
       <Typography>
         <PhoneIcon fontSize="large" /> (303)-987-9878
       </Typography>
-      <Typography>
+      <Typography >
         <EmailIcon fontSize="large" /> do something cool@gmail.com
       </Typography>
       <Typography>
