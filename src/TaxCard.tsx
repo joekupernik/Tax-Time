@@ -7,7 +7,7 @@ import CardActionArea  from '@mui/material/CardActionArea';
 
 export default function TaxCard() {
   return (
-    <Card sx={{ maxWidth: 345 }}>
+    <Card sx={{ maxWidth: '100%' }}>
       <CardActionArea>
         <CardMedia
           component="img"
