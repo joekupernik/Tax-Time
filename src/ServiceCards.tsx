@@ -13,7 +13,7 @@ export default function ServiceCards() {
     <Box>
         <Grid container rowSpacing={{ xs: 1, sm: 2, md: 3 }} columnSpacing={{ xs: 1, sm: 2, md: 3 }} >
         <Grid item xs={12} sm={6} md={4}>
-    <Card sx={{ maxWidth: 345 }}>
+    <Card sx={{ maxWidth: '100%', height: '100%' }}>
       <CardActionArea>
         <CardMedia
           component="img"
@@ -33,7 +33,7 @@ export default function ServiceCards() {
     </Card>
     </Grid>
     <Grid item xs={12} sm={6} md={4}>
-    <Card sx={{ maxWidth: 345 }}>
+    <Card sx={{ maxWidth: '100%', height: '100%' }}>
       <CardActionArea>
         <CardMedia
           component="img"
@@ -53,7 +53,7 @@ export default function ServiceCards() {
     </Card>
     </Grid>
     <Grid item xs={12} sm={6} md={4}>
-    <Card sx={{ maxWidth: 345 }}>
+    <Card sx={{ maxWidth: '100%', height: '100%' }}>
       <CardActionArea>
         <CardMedia
           component="img"
@@ -73,7 +73,7 @@ export default function ServiceCards() {
     </Card>
     </Grid>
             <Grid item xs={12} sm={6} md={4}>
-    <Card sx={{ maxWidth: 345 }}>
+    <Card sx={{ maxWidth: '100%', height: '100%' }}>
       <CardActionArea>
         <CardMedia
           component="img"
@@ -93,7 +93,7 @@ export default function ServiceCards() {
     </Card>
     </Grid>
     <Grid item xs={12} sm={6} md={4}>
-    <Card sx={{ maxWidth: 345 }}>
+    <Card sx={{ maxWidth: '100%', height: '100%' }}>
       <CardActionArea>
         <CardMedia
           component="img"
@@ -113,7 +113,7 @@ export default function ServiceCards() {
     </Card>
     </Grid>
     <Grid item xs={12} sm={6} md={4}>
-    <Card sx={{ maxWidth: 345 }}>
+    <Card sx={{ maxWidth: '100%', height: '100%' }}>
       <CardActionArea>
         <CardMedia
           component="img"
