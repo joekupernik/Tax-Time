@@ -16,7 +16,7 @@ export default function ConsultingCard() {
           alt="green iguana"
         />
         <CardContent>
-          <Typography gutterBottom variant="h2" component="div">
+          <Typography gutterBottom variant="h3" component="div">
             Turn your ideas into realities
           </Typography>
           <Typography variant="h5" color="text.secondary">

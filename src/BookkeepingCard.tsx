@@ -18,7 +18,7 @@ export default function BookkeppingCard() {
           alt="bookeeping"
         />
         <CardContent>
-          <Typography gutterBottom variant="h2" component="div">
+          <Typography gutterBottom variant="h3" component="div">
             Focus on your buisness not your bookeeping.
           </Typography>
           <Typography variant="h5" color="text.secondary">

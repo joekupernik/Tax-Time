@@ -16,7 +16,7 @@ export default function TaxCard() {
           alt="green iguana"
         />
         <CardContent>
-          <Typography gutterBottom variant="h2" component="div">
+          <Typography gutterBottom variant="h3" component="div">
             Stop stressing about your taxes
           </Typography>
           <Typography variant="h5" color="text.secondary">
