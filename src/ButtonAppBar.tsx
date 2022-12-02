@@ -9,7 +9,7 @@ import {Link} from "react-router-dom";
 export default function ButtonAppBar() {
   return (
     <Box sx={{ flexGrow: 1 }}>
-      <AppBar position="static">
+      <AppBar position="static" color="secondary">
         <Toolbar >       
           <Button color="inherit" size="large" sx={{mr: 2, ml: 2}} ><Link to="/">Home</Link></Button>
           <Button color="inherit" size="large" sx={{mr: 2, ml: 2}}><Link to="/about">About</Link></Button>
