@@ -8,6 +8,10 @@ import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
 //import ReviewCard from './ReviewCard';
 import ReviewCarousel from './ReviewCarousel';
+import Jumbotron from './Jumbotron';
+import Paper from '@mui/material/Paper';
+import CardActionArea  from '@mui/material/CardActionArea';
+
 
 
 
@@ -17,17 +21,8 @@ import ReviewCarousel from './ReviewCarousel';
 export default function Services () {
     return(
       <>
-      <Grid container xs={12}>
-    <Container maxWidth="lg">
-      <Typography
-        variant="h2"
-        align="center"
-        color="text.primary"
-      >
-        Services
-      </Typography>
-      </Container>
-      </Grid>
+      <Jumbotron/>
+    
       <Grid container sx={{ p: 2}}>
         <Grid item xs={12} sm={6}>
         <Card sx={{ p: 2}}>
@@ -59,6 +54,29 @@ export default function Services () {
         <ServiceCards/>
         </Grid>
       </Grid>
+      <Paper
+    sx={{
+      bgcolor: 'secondary',
+      pt: 8,
+      pb: 6,
+    }}
+  >
+    <Container maxWidth="lg">
+      <Card sx={{p:3}}>
+        <CardActionArea>
+      <Typography
+        component="h1"
+        variant="h1"
+        align="center"
+        color="text.primary"
+        gutterBottom
+      >
+        Get Started!
+      </Typography>
+      </CardActionArea>
+      </Card>
+      </Container>
+      </Paper>
         </>
     );
 }

@@ -78,15 +78,15 @@ export default function ServiceCards() {
         <CardMedia
           component="img"
           height="140"
-          image="\Static\taxes.jpg"
+          image="\Static\doit.jpg"
           alt="green iguana"
         />
         <CardContent>
           <Typography gutterBottom variant="h5" component="div">
-            Stop stressing about your taxes
+            Start your Buiseness!
           </Typography>
           <Typography variant="body2" color="text.secondary">
-            Worried about your taxes?  Looking for a tax prepairer you can trust?  Well look no further Carly has the experiance and knowledge plus the follow through to make your tax season a breeze.
+            Dont wait start your buisness now! I will help you with the paperwork. It's just that easy!
           </Typography>
         </CardContent>
       </CardActionArea>
@@ -98,15 +98,15 @@ export default function ServiceCards() {
         <CardMedia
           component="img"
           height="140"
-          image="\Static\consulting.jpg"
+          image="\Static\highfive.jpg"
           alt="green iguana"
         />
         <CardContent>
           <Typography gutterBottom variant="h5" component="div">
-            Turn your ideas into realities
+            Need help with strategy give me a call. I can help.
           </Typography>
           <Typography variant="body2" color="text.secondary">
-            Give your dreams the nutrients they need to blosom. Buisness can take many forms, find out which on best suits your needs.
+            Strategy for your situation can be scary, but no worries I can help. 
           </Typography>
         </CardContent>
       </CardActionArea>
@@ -118,15 +118,15 @@ export default function ServiceCards() {
         <CardMedia
           component="img"
           height="140"
-          image="/Static/bookkeeping.jpg"
+          image="/Static/coffee.jpg"
           alt="bookeeping"
         />
         <CardContent>
           <Typography gutterBottom variant="h5" component="div">
-            Focus on your buisness not your bookeeping.
+            Have not filed taxes in several years? Don't fret I can help her too!
           </Typography>
           <Typography variant="body2" color="text.secondary">
-            Owning a buisness is hard work.  Elevated Finicals makes your life eaiser by streamlining your finiancial recording and allowing you to focus on the most important parts of your buisness.
+            Taxes can be scary. I love helping people solve their tax problems.
           </Typography>
         </CardContent>
       </CardActionArea>
