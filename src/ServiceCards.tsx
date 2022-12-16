@@ -18,8 +18,8 @@ export default function ServiceCards() {
         <CardMedia
           component="img"
           height="150"
-          image="\Static\taxes.jpg"
-          alt="green iguana"
+          image="./taxes.jpg"
+          alt="taxes"
         />
         <CardContent>
           <Typography gutterBottom variant="h5" component="div">
@@ -38,8 +38,8 @@ export default function ServiceCards() {
         <CardMedia
           component="img"
           height="140"
-          image="\Static\consulting.jpg"
-          alt="green iguana"
+          image="./consulting.jpg"
+          alt="consulting"
         />
         <CardContent>
           <Typography gutterBottom variant="h5" component="div">
@@ -58,7 +58,7 @@ export default function ServiceCards() {
         <CardMedia
           component="img"
           height="140"
-          image="/Static/bookkeeping.jpg"
+          image="./bookkeeping.jpg"
           alt="bookeeping"
         />
         <CardContent>
@@ -78,8 +78,8 @@ export default function ServiceCards() {
         <CardMedia
           component="img"
           height="140"
-          image="\Static\doit.jpg"
-          alt="green iguana"
+          image="./doit.jpg"
+          alt="do it sign"
         />
         <CardContent>
           <Typography gutterBottom variant="h5" component="div">
@@ -98,8 +98,8 @@ export default function ServiceCards() {
         <CardMedia
           component="img"
           height="140"
-          image="\Static\highfive.jpg"
-          alt="green iguana"
+          image="./highfive.jpg"
+          alt="high five"
         />
         <CardContent>
           <Typography gutterBottom variant="h5" component="div">
@@ -118,8 +118,8 @@ export default function ServiceCards() {
         <CardMedia
           component="img"
           height="140"
-          image="/Static/coffee.jpg"
-          alt="bookeeping"
+          image="./coffee.jpg"
+          alt="coffee"
         />
         <CardContent>
           <Typography gutterBottom variant="h5" component="div">

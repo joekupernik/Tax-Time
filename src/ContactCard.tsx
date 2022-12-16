@@ -15,7 +15,7 @@ export default function ContactForm() {
      <CardMedia
      component="img"
      height="500"
-     image="\Static\background.jpg"
+     image="./background.jpg"
      alt="green iguana"
      >
     

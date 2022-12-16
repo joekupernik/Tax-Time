@@ -12,8 +12,8 @@ export default function TaxCard() {
         <CardMedia
           component="img"
           height="140"
-          image="\Static\taxes.jpg"
-          alt="green iguana"
+          image="./taxes.jpg"
+          alt="taxes"
         />
         <CardContent>
           <Typography gutterBottom variant="h3" component="div">

@@ -12,7 +12,7 @@ export default function ConsultingCard() {
         <CardMedia
           component="img"
           height="140"
-          image="\Static\consulting.jpg"
+          image="./consulting.jpg"
           alt="green iguana"
         />
         <CardContent>

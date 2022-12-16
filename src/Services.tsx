@@ -29,8 +29,8 @@ export default function Services () {
      <CardMedia
      component="img"
      height="500"
-     image="\Static\background.jpg"
-     alt="green iguana"
+     image="./background.jpg"
+     alt="background"
      >
     
      </CardMedia>

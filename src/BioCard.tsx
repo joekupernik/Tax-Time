@@ -22,7 +22,7 @@ export default function Bio() {
      <CardMedia
      component="img"
      height="450"
-     image="\Static\homeimg.png"
+     image="./homeimg.png"
      alt="Carly"
      >
     

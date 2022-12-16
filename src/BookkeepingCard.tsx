@@ -14,7 +14,7 @@ export default function BookkeppingCard() {
         <CardMedia
           component="img"
           height="140"
-          image="/Static/bookkeeping.jpg"
+          image="./bookkeeping.jpg"
           alt="bookeeping"
         />
         <CardContent>

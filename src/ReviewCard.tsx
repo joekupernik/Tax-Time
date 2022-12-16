@@ -39,7 +39,7 @@ export default function ReviewCard() {
         - Joe 
       </Typography>
       <CardContent sx={{display: "flex", justifyContent: "center"}}>
-      <Avatar alt="Joe" src="\Static\email signiture.png"
+      <Avatar alt="Joe" src="./email signiture.png"
       sx={{ width: 56, height: 56}} />
       </CardContent>
       </Card>
@@ -67,7 +67,7 @@ export default function ReviewCard() {
         - Joe 
       </Typography>
       <CardContent sx={{display: "flex", justifyContent: "center"}}>
-      <Avatar alt="Joe" src="\Static\email signiture.png"
+      <Avatar alt="Joe" src="./email signiture.png"
       sx={{ width: 56, height: 56}} />
       </CardContent>
       </Card>
@@ -95,7 +95,7 @@ export default function ReviewCard() {
         - Joe 
       </Typography>
       <CardContent sx={{display: "flex", justifyContent: "center"}}>
-      <Avatar alt="Joe" src="\Static\email signiture.png"
+      <Avatar alt="Joe" src="./email signiture.png"
       sx={{ width: 56, height: 56}} />
       </CardContent>
       </Card>
